@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Atividade07_switch_case",
+            "request": "launch",
+            "mainClass": "Atividade07_switch_case",
+            "projectName": "Atividade - 04_04_5e70680d"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

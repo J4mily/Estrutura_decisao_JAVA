@@ -13,9 +13,9 @@ public class Atividade01 {
         int A = s.nextInt();
         int B = s.nextInt();
 
-        if(A > B){
+        if (A > B) {
             System.out.println("> O maior número é o " + A + ".");
-        }else{
+        } else {
             System.out.println("> O maior número é o " + B + ".");
         }
 

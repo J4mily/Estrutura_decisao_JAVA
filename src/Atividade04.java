@@ -25,7 +25,7 @@ public class Atividade04 {
         s.nextLine();
         System.out.println("Digite a sua naturalidade: ");
         String naturalidade = s.nextLine();
-         
+
         System.out.println("Deseja visualizar dados completos? (Digite S para sim e N para não em maiúsculo!) ");
         String visualizar = s.nextLine();
         s.close();

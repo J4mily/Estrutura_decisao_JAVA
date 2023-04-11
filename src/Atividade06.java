@@ -18,16 +18,16 @@ public class Atividade06 {
         System.out.print("Qual a quantidade de diária que vc vai pegar? ");
         int ndiaria = s.nextInt();
 
-        if(ndiaria > 15){
+        if (ndiaria > 15) {
             System.out.println("> A taxa de hospedagem vai ser de: " + (60 + (ndiaria * 5.5)));
-        } else if(ndiaria == 15){
+        } else if (ndiaria == 15) {
             System.out.println("> A taxa de hospedagem vai ser de: " + (60 + (ndiaria * 6)));
-        }else if(ndiaria < 15 && ndiaria >= 0){
+        } else if (ndiaria < 15 && ndiaria >= 0) {
             System.out.println("> A taxa de hospedagem vai ser de: " + (60 + (ndiaria * 8)));
-        }else {
+        } else {
             System.out.println("Número de dias inválido");
         }
 
-         s.close();
+        s.close();
     }
 }

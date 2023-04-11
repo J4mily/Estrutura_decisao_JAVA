@@ -10,25 +10,25 @@ public class Atividade03 {
 
     public static void main(String[] args) throws Exception {
 
-    Scanner s = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
 
-    System.out.println("Digite um número para saber se é impar ou par:");
-    int numero = s.nextInt();
-    s.close();
+        System.out.println("Digite um número para saber se é impar ou par:");
+        int numero = s.nextInt();
+        s.close();
 
-    if (numero % 2 == 0) {
-        System.out.print("> O número é PAR");
-    } else {
-        System.out.print("> O número é ÍMPAR");
+        if (numero % 2 == 0) {
+            System.out.print("> O número é PAR");
+        } else {
+            System.out.print("> O número é ÍMPAR");
+        }
+
+        if (numero > 0) {
+            System.out.print(" e POSITIVO");
+        } else if (numero == 0) {
+            System.out.print(" e NEUTRO");
+        } else {
+            System.out.print(" e NEGATIVO");
+        }
     }
-
-    if (numero > 0) {
-        System.out.print(" e POSITIVO");
-    } else if (numero == 0) {
-        System.out.print(" e NEUTRO");
-    } else {
-        System.out.print(" e NEGATIVO");
-    }
-}
 
 }
